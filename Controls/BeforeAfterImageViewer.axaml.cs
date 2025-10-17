@@ -7,20 +7,20 @@ using Avalonia.Input;
 using Avalonia.Media;
 using Avalonia.Threading;
 
-namespace SplitWindowView.Controls;
+namespace BeforeAfterImageView.Controls;
 
-public partial class DualImageViewer : UserControl
+public partial class BeforeAfterImageViewer : UserControl
 {
     public static readonly StyledProperty<IImage?> LeftSourceProperty =
-        AvaloniaProperty.Register<DualImageViewer, IImage?>(nameof(LeftSource));
+        AvaloniaProperty.Register<BeforeAfterImageViewer, IImage?>(nameof(LeftSource));
 
     public static readonly StyledProperty<IImage?> RightSourceProperty =
-        AvaloniaProperty.Register<DualImageViewer, IImage?>(nameof(RightSource));
+        AvaloniaProperty.Register<BeforeAfterImageViewer, IImage?>(nameof(RightSource));
 
     private double _splitPosition = 100; // Position in viewport coordinates
     private bool _isDragging;
 
-    public DualImageViewer()
+    public BeforeAfterImageViewer()
     {
         InitializeComponent();
         

@@ -1,7 +1,7 @@
 ﻿using System;
 using Avalonia;
 
-namespace SplitWindowView;
+namespace BeforeAfterImageView;
 
 internal class Program
 {

@@ -1,6 +1,6 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             x:Class="SplitWindowView.Controls.DualImageViewer">
+             x:Class="BeforeAfterImageView.Controls.BeforeAfterImageViewer">
 
     <!-- Use a Grid to overlay the drag handle on top -->
     <Grid ClipToBounds="False">
@@ -29,7 +29,6 @@
                 HorizontalAlignment="Left"
                 Cursor="SizeWestEast"
                 IsHitTestVisible="True" />
-        
     </Grid>
 
 </UserControl>

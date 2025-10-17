@@ -1,7 +1,7 @@
 using Avalonia.Controls;
 using Avalonia.Media.Imaging;
 
-namespace SplitWindowView;
+namespace BeforeAfterImageView;
 
 public partial class MainWindow : Window
 {
