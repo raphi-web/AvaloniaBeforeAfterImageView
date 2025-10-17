@@ -3,7 +3,7 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 
 namespace BeforeAfterImageView;
-
+// App
 public class App : Application
 {
     public override void Initialize()
